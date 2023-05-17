@@ -11,7 +11,7 @@
     <!-- Title Section -->
     <section id="title">
         <div class="flex flex-col text-center py-[19vh] text-white">
-            <span class="text-9xl" style="font-family:'Times New Roman', Times, serif">School Shooters</span>
+            <span class="text-9xl" id="title-text" style="font-family:'Times New Roman', Times, serif">School Shooters</span>
             <div class="arrow bounce"><a class="fa fa-arrow-down fa-2x" href="#introduction"></a></div>
         </div>
     </section>
@@ -20,7 +20,7 @@
     <section id="introduction" class="pt-12 container">
         <div class="flex flex-col md:flex-row bg-foreground rounded-xl shadow-lg">
             <div class="w-full md:w-1/2 h-96 rounded-xl shadow-lg">
-               <img src="https://files.123freevectors.com/wp-content/original/110755-dark-color-blurred-background-vector.jpg" class="object-cover w-full h-full"> 
+               <img src="Shooting.png" class="object-cover w-full h-full"> 
             </div>
             <div class="text-white p-8 md:w-1/2">
                 <h2 class="text-2xl font-bold mb-4 text-center">Introduction</h2>
@@ -101,9 +101,18 @@
                     <li style="font-size: 20px;padding-bottom: 5px;">Kevin Rinchen</li>
                     <li><a class="link5" href="https://github.com/washingtonpost"><span data-hover="Text Link">Washington Post - Data</span></a></li>
                     <li><a class="link5" href="https://github.com/stevenrich"><span data-hover="Text Link">stevenrich - Database Editor</span></a></li>
+                    <li><a class="link5" href="https://github.com/kevvvs/FinalProject"><span data-hover="Text Link">Website & Data Sources</span></a></li>
                 </ul>
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script>
+new Typewriter('#title-text', {
+  strings: ['Why does it happen?', 'Prevent this how?', 'What are common profiles?', 'Are they more common?'],
+  autoStart: true,
+  loop: true,
+});
+</script>
 </body>
 </html>
